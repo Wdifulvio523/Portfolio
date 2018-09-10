@@ -134,8 +134,7 @@ html {
 
 html,
 body {
-  height: 100%;
-  min-height: 1000px;
+  height: auto;
 }
 
 /* Main styles*/
@@ -152,14 +151,18 @@ body {
   letter-spacing: 2px;
 }
 
-.background-img {
+/* .background-img {
   z-index: -1;
   display: flex;
   position: fixed;
   background-image: url("./momentum_JM-9795_full.jpg");
   height: 100%;
   width: 100%;
-}
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .sidebar {
   height: 100%;
@@ -185,8 +188,27 @@ body {
   line-height: 4.5rem;
   font-weight: bold;
 }
+/* 
+.background-img {
+    z-index: -1;
+    display: flex;
+    position: fixed;
+    background-image: url("./momentum_JM-9795_full.jpg");
+    height: 100%;
+    width: 100%;
+        background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  } */
 
 .body-container {
+    background-image: url("./momentum_JM-9795_full.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
   height: 100%;
   width: 100%;
 }
