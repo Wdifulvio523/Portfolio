@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 1000px;
+}
+
+/* Main styles*/
+
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-size: 2.6rem;
+  font-family: "Bilbo Swash Caps", cursive;
+  letter-spacing: 2px;
+}
+
+.background-img {
+  z-index: -1;
+  display: flex;
+  position: fixed;
+  background-image: url("./momentum_JM-9795_full.jpg");
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.sidebar .navbar {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.sidebar .navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  line-height: 4.5rem;
+  font-weight: bold;
+}
+
+.body-container {
+  height: 100%;
+  width: 100%;
+}
+
+.body-container .name-header {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+
+.body-container .name-header h1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body-container .main-content {
+  width: 100%;
+  height: auto;
+  background: #1f1f29;
+  background-color: rgba(31, 31, 41, 0.8);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 300px;
+  padding-bottom: 100px;
+}
+
+.body-container .main-content h2 {
+border-bottom: 1px solid white;
+width: 60%;
+max-width: 800px;
+line-height: 3rem;
+font-size: 3rem;
+margin-left: 200px;
+padding-bottom: 20px;
+padding-top:20px;
+margin-bottom: 20px;
+}
+
+.body-container .main-content p {
+  width: 60%;
+  max-width: 800px;
+  line-height: 3rem;
+  margin-left: 200px;
+}
+
+.body-container .main-content ul li {
+  width: 60%;
+  max-width: 800px;
+  line-height: 3.5rem;
+  margin-left: 200px;
+}
