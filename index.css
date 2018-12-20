@@ -137,7 +137,7 @@ html {
 /* Main styles*/
 
 * {
-  color: white;
+  color: blue;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
